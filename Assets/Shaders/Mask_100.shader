@@ -5,6 +5,7 @@ Shader "URP Shader/Mask_100" {
         Pass {
             ZWrite Off
             ZTest Off
+            Cull Off
             ColorMask 0
             Stencil {
                 Ref 100
